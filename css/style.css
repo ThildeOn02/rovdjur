@@ -1,1 +1,77 @@
-/* Denna fil skall innehålla din CSS kod */
+
+#container {
+    display: grid;
+    height: 100vh;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas:
+    'nav nav nav nav'
+    'hd hd hd hd '
+    'as as as as'
+    'mn mn mn mn'
+    'ft ft ft ft'
+}
+
+nav {
+    grid-area: nav;
+    border: solid 1px black;
+    height: 2em;
+    width: 150px;
+    border-radius: 3px;
+    background-image: url("../img/winterwolf.jpg");
+    
+}
+
+header {
+    border: solid 2px black;
+    display: grid;
+    height: auto;
+    grid-area: hd;
+    background-color: white;
+    text-align: center;
+    border-radius: 3px;
+    
+}
+
+aside {
+    grid-area: as;
+    border: solid 1px black;
+    background-color:white;
+    border-radius: 3px;
+    
+}
+
+main {
+    grid-area: mn;
+    border: solid 1px black;
+    background-color: #9FB1BC;
+    border-radius: 3px;
+}
+
+footer {
+    grid-area: ft;
+    background-color: #D3D0CB;
+    border-radius: 3px;
+    border: solid 1px black;
+}
+
+#wolfbild {
+
+    height: 10em; 
+    margin: left;
+    
+}
+
+#wolf {
+
+    height: 20em;
+    margin: center;
+}
+
+#container2{
+display: grid; 
+}
+
+#wolf2{
+    height: 10em;
+}
