@@ -104,4 +104,9 @@ h1{
     position: relative;
     top: -30px;
 }
+#bear{
+    display: inline;
+    margin: 10px;
+   
+}
 
